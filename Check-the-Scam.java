@@ -9,15 +9,13 @@ public class Main {
         B = scanner.nextInt();
         C = scanner.nextInt();
         D = scanner.nextInt();
-        
+    
         int sum = A + B + C + D;
-        
         if (A > (sum - A) || B > (sum - B) || C > (sum - C) || D > (sum - D)) {
             System.out.println("YES");
         } else {
             System.out.println("NO");
         }
-        
         scanner.close();
     }
 }
